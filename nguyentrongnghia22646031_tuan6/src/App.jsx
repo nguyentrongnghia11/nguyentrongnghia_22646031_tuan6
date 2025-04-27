@@ -6,6 +6,7 @@ import UseState_Buy from './components/UseState_Buy'
 import UserList from './components/useEffect'
 import ExampleUseRefFocus from './components/useRefFocus'
 import ExampleUseRefGetValueInput from './components/refGetValue'
+import ExampleUseReducer from './components/reducer'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <UserList></UserList>
       <ExampleUseRefFocus></ExampleUseRefFocus>
       <ExampleUseRefGetValueInput></ExampleUseRefGetValueInput>
+      <ExampleUseReducer></ExampleUseReducer>
 
     </>
   )
